@@ -1,0 +1,38 @@
+Compiled from "Euclid.java"
+public class Euclid {
+  public Euclid();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: iconst_3
+       1: istore_3
+       2: iconst_5
+       3: istore_2
+       4: bipush        25
+       6: istore_3
+       7: iload_2
+       8: iload_3
+       9: if_icmpeq     31
+      12: iload_2
+      13: iload_3
+      14: if_icmple     24
+      17: iload_2
+      18: iload_3
+      19: isub
+      20: istore_2
+      21: goto          7
+      24: iload_3
+      25: iload_2
+      26: isub
+      27: istore_3
+      28: goto          7
+      31: iload_3
+      32: istore_1
+      33: iload_2
+      34: istore_1
+      35: return
+}

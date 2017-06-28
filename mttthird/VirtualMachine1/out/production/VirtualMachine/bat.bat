@@ -1,0 +1,1 @@
+javap -c Euclid.class >1.txt

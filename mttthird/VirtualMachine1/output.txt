@@ -1,0 +1,29 @@
+1: istore	1
+2: istore	2
+3: bipush	3
+4: istore	3
+5: bipush	5
+6: istore	2
+7: bipush	25
+8: istore	3
+9: iload	2
+10: iload	3
+11: if_cmpeq	25
+12: iload	2
+13: iload	3
+14: if_cmple	20
+15: iload	2
+16: iload	3
+17: isub
+18: istore	2
+19: goto	24
+20: iload	3
+21: iload	2
+22: isub
+23: istore	3
+24: goto	9
+25: iload	3
+26: istore	1
+27: iload	2
+28: istore	1
+29: return
