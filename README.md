@@ -7,7 +7,7 @@
 и объяснение принципов работы программы на защите.
 Желательно реализовать, используя атрибуты в ANTLR ( http://www.antlr.org/ )
 ANTLR Getting started https://github.com/antlr/antlr4/blob/master/doc/getti.. 
-(от себя-посмотрите https://habrahabr.ru/post/110710/)
+(от себя-посмотрите https://habrahabr.ru/post/110710/. Ввод из файла input.txt, вывод в консоль. Гы-гениально)
 
 Лабораторная 2:
 Байт-код Java:
